@@ -11,8 +11,19 @@ class Runner {
 //        return Karate.run("Pet/store").relativeTo((getClass()));
 //    }
 
+//    @Karate.Test
+//    public Karate runGetMealPlan() {
+//        return Karate.run("Mealplan/mealplan").relativeTo((getClass()));
+//    }
+//}
+//
+//    @Karate.Test
+//    public Karate runGetMisc(){
+//    return Karate.run("Misc/misc").relativeTo((getClass()));
+//}
+
     @Karate.Test
-    public Karate runGetUser(){
-        return Karate.run("Pet/user").relativeTo((getClass()));
+    public Karate runGetRecipe(){
+        return Karate.run("Recipe/recipe").relativeTo((getClass()));
     }
 }
