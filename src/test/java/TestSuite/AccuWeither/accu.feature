@@ -27,8 +27,7 @@ Feature: AccuWeither Test
     When method get
     Then status 200
     And print 'Response: ', response
-
-      
+    
   Scenario: Test Find Top Cities List
     Given path 'topcities'
     And param apikey = apikey
