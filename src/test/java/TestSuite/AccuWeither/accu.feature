@@ -28,5 +28,37 @@ Feature: AccuWeither Test
     Then status 200
     And print 'Response: ', response
 
+      
+  Scenario: Test Find Top Cities List
+    Given path 'topcities'
+    And param apikey = apikey
+    And param group = 50
+    When method get
+    Then status 200
+    And print 'Response: ', response
+
+  Scenario: Test Find Autocomplete search
+    Given path 'cities/autocomplete'
+    And param apikey = apikey
+    And param q = "IND"
+    When method get
+    Then status 200
+    And print 'Response: ', response
+
+  Scenario: Test Find City Neighbors by locationKey
+    Given path 'cities/neighbors'
+    And param apikey = apikey
+    And param locationKey = 100
+    When method get
+    Then status 200
+    And print 'Response: ', response
+
+  Scenario: Test Find Searchone by locationKey
+    Given path locationKey = 100
+    And param apikey = apikey
+    When method get
+    Then status 200
+    And print 'Response: ', response
+
 
 
