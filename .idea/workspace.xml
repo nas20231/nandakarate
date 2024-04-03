@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5125c217-3def-4109-9a40-7599ebb966bb" name="Changes" comment="commit to branch">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/MealPlan/mealplan.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Misc/misc.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Recipe/recipe.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/AccuWeither/accu.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Pet/pet.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Pet/store.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Pet/user.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Karate" />
         <option value="Substep Feature" />
+        <option value="Karate" />
       </list>
     </option>
   </component>
@@ -131,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711378489238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit to branch">
+      <option name="closed" value="true" />
+      <created>1712041502867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712041502867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
